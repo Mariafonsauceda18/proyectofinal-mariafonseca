@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    border: 0%;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: rgb(49, 140, 201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#encabezado{
+    background-color: rgb(109, 68, 68);
+    width: 100%;
+}
+
+#desplegar{
+    background-color: rgb(204, 79, 166);
+    margin-left: 20%;
+    margin-right: 50%;
+}
+
+#boton{
+    width: 120px;
+    height: 30px;
+background-color: rgb(32, 189, 92);
+}
+
+.menus{
+    background-color: rgb(151, 37, 155);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 40%;
+    margin-left: 30;
+    border: solid;
+}
+
+.menus:hover{
+    color: rgb(12, 87, 112);
+}
+
+#boton:hover{
+    color: rgb(177, 95, 166);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(82, 199, 145);
+}
+
+#contenedor{
+    width: 100%;
+    height: auto;
+}
+
+#piedepagina{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    color: #000000;
+    text-align: center;
+}
+
+#caja1{
+    display: flex;
+    height: auto;
+}
+
+#linea{
+   margin-right: 10%;
+   margin-left: 5%;
+   color: red;
+}
+
+#caja2{
+    display: flex;
+    height: auto;
+    margin-top: 10%;
+}
+
+#charles, #aristoteles, #napoleon, #julio, #platon, #albert, #formulario, #desplegar{
+display: none;
+text-align: justify;
+}
+
+#charles:target, #aristoteles:target, #napoleon:target, #julio:target, #platon:target, #albert:target, #formulario:target, #desplegar:target{
+display: block;
+}
+
+.enlaces{
+    background-color: rgb(24, 168, 125);
+    text-align: center;
+ border: solid rgb(150, 138, 138);
+ color: rgb(6, 7, 7);
+}
+
+.enlaces:hover{
+    color: rgb(239, 17, 17);
+}
+
+.parrafos{
+    text-align: justify;
+}
+
+.imagenes{
+    width: 90%;
+    height: 50%;
+    border-radius: 20%;
+}
+
+.cajas{
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+
+form{
+    background-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+label{
+    color: black;
+}
+
+#formulario{
+    text-align: center;
+    background-color: darkgrey;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#face{
+    display: flex;
+    width: 20%;
+    height: 10%;
+    margin-left: 50%;
+}
+
+.facetwi{
+    width: 15%;
+    height: 15%;
+}
+
+@media(max-width:700px) {
+    #caja1{
+        display: block;
+    }
+
+    #caja2{
+        display: block;
+    }
+}
